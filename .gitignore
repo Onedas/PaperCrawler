@@ -1,5 +1,8 @@
 #
 .idea
 
-#
+# chrome driver
 chromedriver/
+
+# result
+SearchList/
