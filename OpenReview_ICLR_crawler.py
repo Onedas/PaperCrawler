@@ -12,7 +12,7 @@ def get_iclr_papers(years = 2020, keyword = None):
 
     driver_path = 'chromedriver/chromedriver.exe'
     options = webdriver.ChromeOptions()
-    # options.add_argument('headless')  # without window
+    options.add_argument('headless')  # without window
     driver = webdriver.Chrome(driver_path, options = options)
     os.makedirs('/SearchList', exist_ok = True)
 
