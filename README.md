@@ -92,7 +92,7 @@ python CVPR_crawler.py --years [years]
 ```
 - Optional
 ```commandline
-python CVPR_crawler.py --years [years] --keyword Video
+python CVPR_crawler.py --years [years] --keyword [keyword]
 ```
 ---
 #### ICLR crawler
@@ -102,6 +102,6 @@ python OpenReview_ICLR_crawler.py --years [years]
 ```
 - Optional
 ```commandline
-python OpenReview_ICLR_crawler.py --years [years] --keyword Video
+python OpenReview_ICLR_crawler.py --years [years] --keyword [keyword]
 ```
 ---
