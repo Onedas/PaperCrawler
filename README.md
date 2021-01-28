@@ -21,14 +21,15 @@
 
 ## How to start
 
+---
 ### 1. Installation
 
-
+---
 #### - 1.1 Clone this repo:
 ```commandline
 git clone https://github.com/Onedas/PaperCrawler.git
 ```
-
+---
 #### - 1.2 Install chromedriver
 
 ```commandline
@@ -43,6 +44,7 @@ See https://www.chromium.org/developers/version-numbers for more details.
 
 Move the chromedriver in the `../PaperCrawler/chromedriver` directory like this .`../PaperCrawler/chromedriver/chromedriver.exe`
 
+---
 #### - 1.3 Install requests, beautifulsoup4, and selenium
 
 - For pip users, please type the command
