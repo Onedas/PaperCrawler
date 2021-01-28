@@ -59,13 +59,14 @@ pip install beautifulsoup4
 pip install selenium
 ```
 ---
-- For conda users, you can create a new Conda environment using 
+- For conda users, you can create a new Conda environment and install, using 
     
 ```commandline
 conda env create -f environment.yml
 ```
 or
 ```commandline
+conda create -n PaperCrawler python=3.6
 conda install -c anaconda requests
 conda install -c anaconda beautifulsoup4
 conda install -c conda-forge selenium
