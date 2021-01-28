@@ -76,31 +76,31 @@ conda install -c conda-forge selenium
 
 ---
 ####  ECCV crawler
-- default
+- Default
 ```commandline
 python ECCV_crawler.py 
 ```
-- optional
+- Optional
 ```commandline
 python ECCV_crawler.py --keyword [keyword]
 ```
 ---
 #### CVPR crawler
-- default
+- Default
 ```commandline
 python CVPR_crawler.py --years [years]
 ```
-- optional
+- Optional
 ```commandline
 python CVPR_crawler.py --years [years] --keyword Video
 ```
 ---
 #### ICLR crawler
-- default
+- Default
 ```commandline
 python OpenReview_ICLR_crawler.py --years [years]
 ```
-- optional
+- Optional
 ```commandline
 python OpenReview_ICLR_crawler.py --years [years] --keyword Video
 ```
