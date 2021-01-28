@@ -35,6 +35,7 @@ def get_papers(url, keyword=None):
             f.write("#### Abstract\n")
             f.write("{}\n".format(abstract))
             f.write("#### Summary\n")
+            f.write('- task : \n- method : \n- data : \n')
             f.write("\n --- \n")
 
 
