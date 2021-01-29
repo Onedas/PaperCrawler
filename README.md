@@ -67,6 +67,8 @@ conda env create -f environment.yml
 or
 ```commandline
 conda create -n PaperCrawler python=3.6
+conda activate PaperCrawler
+
 conda install -c anaconda requests
 conda install -c anaconda beautifulsoup4
 conda install -c conda-forge selenium
