@@ -31,10 +31,10 @@ def get_papers(url, keyword=None):
             abstract = get_abstract(href)
             count += 1
             print(count, title)
-            f.write("### [{}]({})\n".format(title, href))
-            f.write("#### Abstract\n")
+            f.write("### [{}]({})\n\n".format(title, href))
+            f.write("#### Abstract\n\n")
             f.write("{}\n".format(abstract))
-            f.write("#### Summary\n")
+            f.write("#### Summary\n\n")
             f.write('- task : \n- method : \n- data : \n')
             f.write("\n --- \n")
 

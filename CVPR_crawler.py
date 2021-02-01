@@ -40,10 +40,10 @@ def get_cvpr_papers(years=2020, keyword=None):
 
 					print(title)
 					# write md
-					f.write("### [{}]({})\n".format(title, href))
-					f.write("#### Abstract\n")
+					f.write("### [{}]({})\n\n".format(title, href))
+					f.write("#### Abstract\n\n")
 					f.write("{}\n".format(abst))
-					f.write("#### Summary\n")
+					f.write("#### Summary\n\n")
 					f.write('- task : \n- method : \n- data : \n')
 					f.write("\n --- \n")
 
