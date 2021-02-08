@@ -13,7 +13,7 @@ def get_cvpr_papers(years=2020, keyword=None):
 	driver = webdriver.Chrome(driver_path, options=options)
 	driver.get(url)
 
-	os.makedirs('/SearchList', exist_ok = True)
+	os.makedirs('SearchList', exist_ok = True)
 
 	if keyword == None:
 		for day in range(1,4):

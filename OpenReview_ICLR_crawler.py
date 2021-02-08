@@ -14,7 +14,7 @@ def get_iclr_papers(years = 2020, keyword = None):
     options = webdriver.ChromeOptions()
     options.add_argument('headless')  # without window
     driver = webdriver.Chrome(driver_path, options = options)
-    os.makedirs('/SearchList', exist_ok = True)
+    os.makedirs('SearchList', exist_ok = True)
 
     for session in session_types:
         driver.get(url)
